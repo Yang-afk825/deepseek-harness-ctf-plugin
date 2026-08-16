@@ -1,0 +1,43 @@
+{
+  "name": "@deepseek-ai/dsh-ctf",
+  "description": "DeepSeek Harness CTF 解题插件：8 个工具（哈希识别/智能解码/凯撒爆破/古典密码/AES/RC4/RSA）+ 11 个 CTF 技能（crypto/web/pwn/reverse/forensics/misc/osint/malware/ai-ml/writeup/solve-challenge）",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "lib/index.js",
+  "types": "lib/types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/types/index.d.ts",
+      "default": "./lib/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/types/**/*.d.ts",
+    "py/"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "deepseek",
+    "harness",
+    "ctf",
+    "capture-the-flag",
+    "plugin",
+    "cordis",
+    "security",
+    "crypto",
+    "reverse-engineering"
+  ],
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.1",
+    "@deepseek-ai/dsh-tools": ">=0.0.1-rc.1",
+    "@deepseek-ai/dsh-skill": ">=0.0.1-rc.1"
+  },
+  "devDependencies": {
+    "@deepseek-ai/cordis": "^4.0.1",
+    "@deepseek-ai/dsh-tools": ">=0.0.1-rc.1",
+    "@deepseek-ai/dsh-skill": ">=0.0.1-rc.1",
+    "typescript": "^5.6.0"
+  }
+}
