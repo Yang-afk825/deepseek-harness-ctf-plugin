@@ -106,7 +106,7 @@
 
 ---
 
-## ⚠️ 已知限制与后续
+## ⚠️ 注意事项以及后续规划
 
 - 技能 SKILL.md content 偏大（ctf-crypto 约 3.8 万字符），需精简链接描述、深度文档改 fs 按需读
 - Python bridge 依赖本机 Yang-Web 引擎路径，跨机部署需配置 `YANG_WEB_PATH`
@@ -115,6 +115,5 @@
 
 ---
 
-## License
-
-[MIT](./LICENSE)
+## 联系
+邮箱：3303257524@qq.com 欢迎各位大佬提供建议！
