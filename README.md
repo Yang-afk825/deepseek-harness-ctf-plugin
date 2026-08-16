@@ -1,6 +1,6 @@
 # deepseek-harness-ctf-plugin
 
-面向 **CTF（Capture The Flag）解题** 的 [DeepSeek Harness](https://github.com/deepseek-ai/DeepSeek-Harness) 插件 —— 让 Harness 的 agent **会打 CTF 题**。
+面向 **CTF（Capture The Flag）解题** 的 [DeepSeek Harness](https://github.com/deepseek-ai/DeepSeek-Harness) 插件 —— 让 DeepSeek-Harness **会打 CTF 题**。
 
 > 基于 Cordis 插件框架，核心理念「一切皆插件」。本项目注册 **8 个解题工具** + **11 个 CTF 技能**，把 agent 从「被动工具箱」升级成「会自己识别题型、定策略、调用工具、解出 flag、写 WriteUp」的解题 agent。
 
